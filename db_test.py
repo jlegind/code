@@ -27,6 +27,7 @@ try:
 except mdb.Error, e:
 
     print "Error %d: %s" % (e.args[0],e.args[1])
+    print ''
     sys.exit(1)
 
 finally:

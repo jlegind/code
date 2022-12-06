@@ -1,0 +1,25 @@
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def print_name(self, last_name):
+        print(self.name + " " + last_name)
+
+class Superhero(Person):
+    def __init__(self, name, age, power):
+        super().__init__(name, age)
+        self.power = power
+
+    def print_name(self, last_name=None):
+        if last_name is None:
+            print(self.name)
+        else:
+            super().print_name(last_name)
+
+
+human = Person("Ron", 23)
+super_human = Superhero("Superman", 30, "Flying")
+
+human.print_name("Wesley")
+super_human.print_name('Poindexter')

@@ -38,6 +38,7 @@ finalList = []
 for j in zipAa:
     # Looping all tuple rows to get at the taxon names
     sortNumber = int(j[0]) # Position 0 is ID, 1 is rank, 2 is name, 3 is author
+  # Logic for creating each name record 
     if j[1] == 'supfam' :
         superFamily = family = genus = species = '' #Each instance of superfamily will reset the record.
         superFamily = j[2]

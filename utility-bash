@@ -3,3 +3,9 @@
 APPENDED="$1"
 echo "Greetings, sire! - $APPENDED";
 for f in *.csv; do echo mv -- "${f%.csv}_$APPENDED.csv"; done
+
+
+
+
+
+fswatch  -0  ~/motion-detection | xargs -0 -n1 -I {} ./detectmotion.sh "{}"

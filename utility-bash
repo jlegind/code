@@ -1,0 +1,5 @@
+#!/bin/bash
+# GNU bash, version 4.4.20
+APPENDED="$1"
+echo "Greetings, sire! - $APPENDED";
+for f in *.csv; do echo mv -- "${f%.csv}_$APPENDED.csv"; done

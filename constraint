@@ -106,7 +106,7 @@ lockfile==0.12.2
 marshmallow-enum==1.5.1
 marshmallow-oneofschema==3.0.1
 marshmallow-sqlalchemy==0.26.1
-marshmallow==3.14.1
+marshmallow==3.18.0
 msgpack==1.0.3
 nox==2020.12.31
 numpy==1.21.4

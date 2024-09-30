@@ -36,7 +36,7 @@ Werkzeug==2.0
 alembic==1.7.5
 amqp==5.0.7
 anyio==3.4.0
-apispec==3.3.2
+apispec==6.0.0
 argcomplete==1.12.3
 attrs==22.1.0
 backports.entry-points-selectable==1.1.1
